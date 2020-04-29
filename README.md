@@ -23,6 +23,13 @@ An overview of
 
 
 ### Team Members
-----------------------------------
+ 
+SrNo | Name  | Email id
+:--|:--|:--|
+1 | Suryansh Tripathi | suryansh1004@gmail.com
+2 | Yoel William | yoelwilliam12345@gmail.com
+3 | Vaibhav Mantri | vaibhavmantri824228@gmail.com
+4 | Surabh Saxena | rockstar.surabh@gmail.com
 
-List of team member names and email IDs
+
+
