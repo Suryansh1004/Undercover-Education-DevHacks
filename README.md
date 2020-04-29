@@ -4,7 +4,7 @@
 ### Project Overview
 ----------------------------------
 
-A brief description of 
+<b>A brief description of</b> 
 * What problem did the team try to solve
 * What is the proposed solution
 
@@ -17,7 +17,7 @@ Affix an image of the flow diagram/architecture diagram of the solution
 
 #### Technical Description
 
-An overview of 
+<b>An overview of</b> 
 * What technologies/versions were used
 * Setup/Installations required to run the solution
 
