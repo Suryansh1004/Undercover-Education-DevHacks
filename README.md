@@ -26,7 +26,7 @@
 
 ### Architecture Diagram
 
-<img src = "Code/images/architecture.PNG">
+<img src = "Code/images/architecture.jpeg">
 
 ### Technical Description
 
