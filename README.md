@@ -18,6 +18,10 @@
 5. We would have collaborations with companies of different streams that would be willing to organize workshops in the college itself, where they would make the students aware of the real world applications of their studies, as well as answer to their doubts and questions. Workshop would be held once the registrations have reached the minimum number of students required.<br>
 6. Lastly if the student is unable to attend the live tour as well as the workshop, their would be an online portal, where they can find the choose any course and get to know it's real world application. The videos of the previous tours and workshops would also be available for the students to see and get an idea of what it is like.<br><br><br>
 <b>Images of the prototype are attached here with:-</b><br>
+<img src = "Code/images/graph.PNG"><br><br>
+<img src = "Code/images/image2.PNG"><br><br>
+<img src = "Code/images/image3.PNG"><br><br>
+
 
 
 #### Architecture Diagram
