@@ -24,11 +24,11 @@
 
 
 
-#### Architecture Diagram
+### Architecture Diagram
 
 <img src = "Code/images/architecture.PNG">
 
-#### Technical Description
+### Technical Description
 
 <b>An overview of</b> 
 <b>Technologies/Version Used:-</b>
