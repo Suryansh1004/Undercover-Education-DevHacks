@@ -16,9 +16,27 @@
 
 <body>
     <!--Navigation bar-->
-    <div id="nav-placeholder">
-    </div>
+    <!-- <div id="nav-placeholder">
+    </div> -->
 
+    <nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Undercover</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Scope</a></li>
+                <li><a href="#">Collaborations</a></li>
+                <li><a href="#">Colleges</a></li>
+                <li><a href="#">Branches</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Scope</a></li>
+                <li><a href="#">Collaborations</a></li>
+                <li><a href="#">Colleges</a></li>
+                <li><a href="#">Branches</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
     <!--end of Navigation bar-->
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
@@ -425,9 +443,9 @@
 
     <script>
         //    navigation bar import
-        $(function() {
-            $("#nav-placeholder").load("branches/navbar.html");
-        });
+        // $(function() {
+        //     $("#nav-placeholder").load("branches/navbar.html");
+        // });
         //   end navbar
         // show hide 
         function semi() {
