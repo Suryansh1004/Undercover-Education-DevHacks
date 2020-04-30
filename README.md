@@ -6,7 +6,7 @@
 
 <b>A brief description of</b> 
 * <b>What problem did the team try to solve</b>:-Students often feel a huge gap between what is taught in college and what they have to do in the real world. Is there a solution to bridge the gap without them taking help of extra courses online.<br>
-* <b>What is the proposed solution</b>
+* <b>What is the proposed solution:-</b>
  We are building a solution using a website in which when the user lands on the page he/she will be able to apply for workshops.seminars and trainings.<br>
  We will also provide a data regarding all the field present in the particular course  and the average demand of the person who     graduates from the course he/she is persuing.<br> 
 
