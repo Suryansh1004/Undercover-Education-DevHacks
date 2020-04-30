@@ -190,6 +190,21 @@
     </div>
 
 
+    <!-- charts -->
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <h3 class="header center blue-text">Most demanding fields in computer science</h3>
+            <div class="row center">
+                <!-- <h5 class="header col s12 light">Material template</h5> -->
+            </div>
+            <br><br>
+        </div>
+    </div>
+
+    <!-- chrts.js -->
+
+    <canvas id="myChart" height="8rem" width="25rem"></canvas>
+
 
 
 
@@ -243,7 +258,27 @@
 
 
     <!--  Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'bar',
+
+            // The data for our dataset
+            data: {
+                labels: ['Artificial Intelligence', 'Database Management', 'Software Development', 'Web Development', 'Game Development', 'Data Science', 'Software Testing'],
+                datasets: [{
+                    label: 'Demands',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [90, 70, 65, 55, 75, 85, 70, 25]
+                }]
+            },
+
+            // Configuration options go here
+            options: {}
+        });
     </script>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
