@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Undercover</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+    </div>
+
+    <!--end of Navigation bar-->
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <img src="https://c.pxhere.com/images/94/4c/e8df4e75da76e5d18ec73ce3f1aa-1575607.jpg!d" alt="#" style="margin-left: -22%;
+            height: 37rem;
+            width: 143%;">
+            <h1 class="header center green-text" style="margin-top: -9rem;"><b>Apply for trainings</b></h1>
+            <div class="row center">
+                <!-- <h5 class="header col s12 light">Material template</h5> -->
+            </div>
+            <br><br>
+        </div>
+    </div>
+    <br>
+
+    <!-- section starts here -->
+    <div class="row">
+        <center>
+            <div class="col s12 m4 l4">
+                <a class="waves-effect waves-light btn-large" style="margin: 2px 2px 2px 2px;" id="training" onclick="train()">Trainings</a>
+            </div>
+            <div class="col s12 m4 l4">
+                <a class="waves-effect waves-light btn-large" style="margin: 2px 2px 2px 2px;" id="seminars" onclick="semi()">Seminars</a>
+            </div>
+            <div class="col s12 m4 l4">
+                <a class="waves-effect waves-light btn-large" style="margin: 2px 2px 2px 2px;" id="workshops" onclick="work()">Workshops</a>
+            </div>
+        </center>
+    </div>
+
+    <!-- section ends here -->
+
+
+
+    <!-- cards categories training -->
+    <div class="container-fluid" id="t">
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/cs.html"><img class="activator" src="https://al.nd.edu/assets/380450/1000x562/bacs_code.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Computer Science </span>
+                        <p><a href="./branches/cs.html">Explore Trainings</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/it.html"><img class="activator" style="height: 100%;" src="https://www.abdn.ac.uk/img//study/images/prospectus/assets/de9/43Ghfz4876ANPN4RER8smgh23TmP.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Information Technology </span>
+                        <p><a href="./branches/it.html">Explore Trainings</a></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/ec.html"> <img class="activator" src="https://www.indiaeducation.net/imagesvr_ce/3516/electronics-and-comunication-engineering.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electronics and Communication </span>
+                        <p><a href="./branches/ec.html">Explore Trainings</a></p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/electricals.html"> <img class="activator" src="https://www.indiaeducation.net/imagesvr_ce/9763/electrical.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electricals </span>
+                        <p><a href="./branches/electricals.html">Explore Trainings</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/mech.html"> <img class="activator" src="https://www.hit.ac.in/images/Mechanical1.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mechanical</span>
+                        <p><a href="./branches/mech.html">Explore Trainings</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--  end  cards categories training -->
+
+    <!-- cards categories seminars -->
+    <div class="container-fluid" id="s" style="display: none;">
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/electricals.html"> <img class="activator" src="https://www.indiaeducation.net/imagesvr_ce/9763/electrical.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electricals </span>
+                        <p><a href="./branches/electricals.html">Explore Seminars</a></p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/ec.html"> <img class="activator" src="https://www.indiaeducation.net/imagesvr_ce/3516/electronics-and-comunication-engineering.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electronics and Communication </span>
+                        <p><a href="./branches/ec.html">Explore Seminars</a></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/it.html"><img class="activator" style="height: 100%;" src="https://www.abdn.ac.uk/img//study/images/prospectus/assets/de9/43Ghfz4876ANPN4RER8smgh23TmP.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Information Technology </span>
+                        <p><a href="./branches/it.html">Explore Seminars</a></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/cs.html"><img class="activator" src="https://al.nd.edu/assets/380450/1000x562/bacs_code.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Computer Science </span>
+                        <p><a href="./branches/cs.html">Explore Seminars</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/mech.html"> <img class="activator" src="https://www.hit.ac.in/images/Mechanical1.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mechanical</span>
+                        <p><a href="./branches/mech.html">Explore Seminars</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--  end  cards categories seminars -->
+
+
+    <!-- cards categories workshops -->
+    <div class="container-fluid" id="w" style="display: none;">
+        <div class="row">
+
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/it.html"><img class="activator" style="height: 100%;" src="https://www.abdn.ac.uk/img//study/images/prospectus/assets/de9/43Ghfz4876ANPN4RER8smgh23TmP.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Information Technology </span>
+                        <p><a href="./branches/it.html">Explore Workshops</a></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/ec.html"> <img class="activator" src="https://www.indiaeducation.net/imagesvr_ce/3516/electronics-and-comunication-engineering.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electronics and Communication </span>
+                        <p><a href="./branches/ec.html">Explore Workshops</a></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/cs.html"><img class="activator" src="https://al.nd.edu/assets/380450/1000x562/bacs_code.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Computer Science </span>
+                        <p><a href="./branches/cs.html">Explore Workshops</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/mech.html"> <img class="activator" src="https://www.hit.ac.in/images/Mechanical1.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mechanical</span>
+                        <p><a href="./branches/mech.html">Explore Workshops</a></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="./branches/electricals.html"> <img class="activator" src="https://www.indiaeducation.net/imagesvr_ce/9763/electrical.jpg">
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electricals </span>
+                        <p><a href="./branches/electricals.html">Explore Workshops</a></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--  end  cards categories workshops-->
+
+
+
+
+
+
+
+    <!-- charts -->
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <h3 class="header center blue-text">Placements in different branches</h3>
+            <div class="row center">
+                <!-- <h5 class="header col s12 light">Material template</h5> -->
+            </div>
+            <br><br>
+        </div>
+    </div>
+
+    <!-- chrts.js -->
+
+    <canvas id="myChart" height="8rem" width="25rem"></canvas>
+
+
+
+
+    <!-- <div class="container">
+        <div class="section"> -->
+
+    <!--   Icon Section   -->
+    <!-- <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+                        <h5 class="center">Speeds up development</h5>
+
+                        <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+                        <h5 class="center">User Experience Focused</h5>
+
+                        <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across
+                            all platforms allow for a more unified user experience.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+                        <h5 class="center">Easy to work with</h5>
+
+                        <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                    </div>
+                </div>
+            </div> -->
+    <!-- 
+        </div>
+        <br><br>
+    </div> -->
+
+
+
+    <!-- footer starts here -->
+    <footer class="page-footer orange">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Prepare for the real world</h5>
+                    <p class="grey-text text-lighten-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro impedit nulla maxime debitis accusantium beatae reiciendis, temporibus odit id ducimus nam tempore dicta tempora ipsa deserunt voluptates unde alias! Voluptates. </p>
+
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text"></h5>
+                    <ul>
+                        <li>
+                            <a class="white-text" href="#!"></a>
+                        </li>
+                        <li>
+                            <a class="white-text" href="#!"></a>
+                        </li>
+                        <li>
+                            <a class="white-text" href="#!"></a>
+                        </li>
+                        <li>
+                            <a class="white-text" href="#!"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Collaborate with us</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Colleges</a></li>
+                        <li><a class="white-text" href="#!">University</a></li>
+                        <li><a class="white-text" href="#!">School</a></li>
+                        <li>
+                            <a class="white-text" href="#!"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <a class="orange-text text-lighten-3"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!--  Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'bar',
+
+            // The data for our dataset
+            data: {
+                labels: ['Information Technology', 'Electrical & Communication', 'Mechanical', 'Electrical', 'Computer Science'],
+                datasets: [{
+                    label: 'Placemets per 100',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [75, 50, 40, 55, 80, 2]
+                }]
+            },
+
+            // Configuration options go here
+            options: {}
+        });
+    </script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+    <script>
+        //    navigation bar import
+        $(function() {
+            $("#nav-placeholder").load("branches/navbar.html");
+        });
+        //   end navbar
+        // show hide 
+        function semi() {
+            $('#t').hide();
+            $('#w').hide();
+            $('#s').show();
+        }
+
+        function train() {
+            $('#w').hide();
+            $('#s').hide();
+            $('#t').show();
+        }
+
+        function work() {
+            $('#s').hide();
+            $('#t').hide();
+            $('#w').show();
+        }
+    </script>
+
+
+</body>
+
+</html>
