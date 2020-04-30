@@ -26,12 +26,11 @@
 
 #### Architecture Diagram
 
-Affix an image of the flow diagram/architecture diagram of the solution
+<img src = "Code/images/architecture.PNG">
 
 #### Technical Description
 
 <b>An overview of</b> 
-* Setup/Installations required to run the solution<br>
 <b>Technologies/Version Used:-</b>
 1. HTML5
 2. CSS3
